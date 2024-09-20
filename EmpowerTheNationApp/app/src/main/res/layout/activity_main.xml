@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Empowering the Nation"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to navigate to Courses Page -->
+    <Button
+        android:id="@+id/coursesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Courses"
+        android:onClick="openCoursesPage" />
+
+    <!-- Button to navigate to Fee Calculator -->
+    <Button
+        android:id="@+id/feeCalculatorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Fees"
+        android:onClick="openFeeCalculatorPage"
+        android:layout_marginTop="16dp" />
+
+    <!-- Button to navigate to Contact Page -->
+    <Button
+        android:id="@+id/contactButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:onClick="openContactPage"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

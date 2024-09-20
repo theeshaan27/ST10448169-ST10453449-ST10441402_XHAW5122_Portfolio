@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Fee Calculation Content -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Your Fees"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/course1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Aid (R1500)" />
+
+    <CheckBox
+        android:id="@+id/course2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sewing (R1500)" />
+
+    <CheckBox
+        android:id="@+id/course3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Landscaping (R1500)" />
+
+    <CheckBox
+        android:id="@+id/course4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Life Skills (R1500)" />
+
+    <CheckBox
+        android:id="@+id/course5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Child Minding (R750)" />
+
+    <CheckBox
+        android:id="@+id/course6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cooking (R750)" />
+
+    <CheckBox
+        android:id="@+id/course7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Garden Maintenance (R750)" />
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Total"
+        android:onClick="calculateFees"
+        android:layout_marginTop="16dp" />
+
+    <!-- Display Total Cost -->
+    <TextView
+        android:id="@+id/totalCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Cost: R0"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Back to Home Button -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Home"
+        android:onClick="goBackToHome"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

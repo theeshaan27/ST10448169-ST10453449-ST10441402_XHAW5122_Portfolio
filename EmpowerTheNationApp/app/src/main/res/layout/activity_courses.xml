@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Heading for the Courses Page -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Courses"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Six-Month Courses Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Six-Month Courses"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/firstAidButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Aid"
+            android:onClick="openCourseDetailPage" />
+
+        <Button
+            android:id="@+id/sewingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sewing"
+            android:onClick="openCourseDetailPage"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/landscapingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Landscaping"
+            android:onClick="openCourseDetailPage"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/lifeSkillsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Life Skills"
+            android:onClick="openCourseDetailPage"
+            android:layout_marginTop="8dp" />
+
+        <!-- Six-Week Courses Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Six-Week Courses"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/childMindingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Child Minding"
+            android:onClick="openCourseDetailPage" />
+
+        <Button
+            android:id="@+id/cookingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cooking"
+            android:onClick="openCourseDetailPage"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/gardenMaintenanceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Garden Maintenance"
+            android:onClick="openCourseDetailPage"
+            android:layout_marginTop="8dp" />
+
+        <!-- Back to Home Button -->
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to Home"
+            android:onClick="goBackToHome"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
