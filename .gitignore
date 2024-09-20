@@ -1,0 +1,107 @@
+# Web-specific gitignore
+
+# Node.js dependencies
+web-project/node_modules/
+web-project/npm-debug.log
+web-project/yarn-error.log
+web-project.pnpm-debug.log
+
+# Logs
+web-project/logs/
+web-project/*.log
+web-project/npm-debug.log*
+web-project/yarn-debug.log*
+web-project/yarn-error.log*
+
+# Build output
+web-project/dist/
+web-project/build/
+web-project/*.out
+
+# Cache directories
+web-project/.cache/
+web-project/.tmp/
+web-project/.vscode/
+web-project/.DS_Store
+
+# Environment variable files
+web-project/.env
+web-project/.env.local
+web-project/.env.*.local
+
+# Static assets build
+web-project/static/
+
+# Ignore sourcemaps from production builds
+web-project/*.map
+
+# OS generated files
+web-project/.DS_Store
+web-project/Thumbs.db
+
+# Android-specific gitignore
+
+# Gradle files
+android-project/.gradle/
+android-project/build/
+!android-project/gradle-wrapper.jar
+
+# Local configuration files
+android-project/local.properties
+android-project/.idea/caches
+android-project/.idea/libraries
+android-project/.idea/modules.xml
+android-project/.idea/workspace.xml
+android-project/.idea/navEditor.xml
+android-project/.idea/vcs.xml
+
+# IntelliJ/Android Studio
+android-project/*.iml
+android-project/.idea/
+
+# Log files
+android-project/*.log
+
+# Android specific
+android-project/app/build/
+android-project/*.apk
+android-project/*.ap_
+android-project/*.hprof
+android-project/*.so
+android-project/*.dex
+android-project/*.class
+
+# Keystore files (Security sensitive)
+android-project/*.jks
+android-project/*.keystore
+
+# Android Studio captures
+android-project/captures/
+
+# Unit test reports
+android-project/test-results/
+android-project/coverage/
+
+# Proguard folder generated files
+android-project/proguard/
+
+# NDK (Native Development Kit) specific
+android-project/.externalNativeBuild/
+
+# Compiled Java classes
+android-project/*.class
+
+# Gradle distribution
+android-project/gradle/
+
+# Local Maven repository
+android-project/.m2/
+
+# OS generated files
+android-project/.DS_Store
+android-project/Thumbs.db
+
+# Crashlytics and Fabric
+android-project/fabric.properties
+android-project/crashlytics.properties
+android-project/*.mapping
